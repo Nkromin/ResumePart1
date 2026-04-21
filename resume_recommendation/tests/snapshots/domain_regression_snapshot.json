@@ -1,0 +1,54 @@
+{
+  "config": {
+    "domain_sections": [
+      "skills",
+      "experience",
+      "projects"
+    ],
+    "domain_top_k": 3,
+    "domain_max_sim_weight": 0.4,
+    "domain_topk_mean_weight": 0.6
+  },
+  "jobs": {
+    "jd_backend_engineer": [
+      {
+        "resume_id": "resume_python_backend",
+        "candidate_name": "Rahul Sharma",
+        "hybrid_score": 0.616638,
+        "domain_score": 0.830131
+      },
+      {
+        "resume_id": "resume_fullstack",
+        "candidate_name": "Arjun Patel",
+        "hybrid_score": 0.440085,
+        "domain_score": 0.702315
+      },
+      {
+        "resume_id": "resume_cloud_engineer",
+        "candidate_name": "Neha Kapoor",
+        "hybrid_score": 0.367665,
+        "domain_score": 0.693035
+      }
+    ],
+    "jd_machine_learning_engineer": [
+      {
+        "resume_id": "resume_data_scientist",
+        "candidate_name": "Ananya Verma",
+        "hybrid_score": 0.513495,
+        "domain_score": 0.759305
+      },
+      {
+        "resume_id": "resume_python_backend",
+        "candidate_name": "Rahul Sharma",
+        "hybrid_score": 0.361436,
+        "domain_score": 0.67383
+      },
+      {
+        "resume_id": "resume_cloud_engineer",
+        "candidate_name": "Neha Kapoor",
+        "hybrid_score": 0.360852,
+        "domain_score": 0.634407
+      }
+    ]
+  }
+}
